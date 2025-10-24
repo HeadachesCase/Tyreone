@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robot2Win", "Robot2Win.csproj", "{4EEA870E-3A9C-487A-A47D-8E4642C1B5C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EEA870E-3A9C-487A-A47D-8E4642C1B5C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EEA870E-3A9C-487A-A47D-8E4642C1B5C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EEA870E-3A9C-487A-A47D-8E4642C1B5C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EEA870E-3A9C-487A-A47D-8E4642C1B5C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BF84269-E0B5-4605-843F-E6DDF717EB1E}
+	EndGlobalSection
+EndGlobal

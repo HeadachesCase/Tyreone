@@ -1,0 +1,63 @@
+{
+  "version": 2,
+  "dgSpecHash": "piKqCz/dn6Q=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\metal\\OneDrive\\Documents\\GitHub\\Tyreone\\Robot2Win.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.\r\n  An error occurred while sending the request.\r\n  The remote name could not be resolved: 'api.nuget.org'",
+      "projectPath": "C:\\Users\\metal\\OneDrive\\Documents\\GitHub\\Tyreone\\Robot2Win.csproj",
+      "filePath": "C:\\Users\\metal\\OneDrive\\Documents\\GitHub\\Tyreone\\Robot2Win.csproj",
+      "libraryId": "VideoLAN.LibVLC.Windows",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.\r\n  An error occurred while sending the request.\r\n  The remote name could not be resolved: 'api.nuget.org'",
+      "projectPath": "C:\\Users\\metal\\OneDrive\\Documents\\GitHub\\Tyreone\\Robot2Win.csproj",
+      "filePath": "C:\\Users\\metal\\OneDrive\\Documents\\GitHub\\Tyreone\\Robot2Win.csproj",
+      "libraryId": "Microsoft.Windows.SDK.NET.Ref",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.\r\n  An error occurred while sending the request.\r\n  The remote name could not be resolved: 'api.nuget.org'",
+      "projectPath": "C:\\Users\\metal\\OneDrive\\Documents\\GitHub\\Tyreone\\Robot2Win.csproj",
+      "filePath": "C:\\Users\\metal\\OneDrive\\Documents\\GitHub\\Tyreone\\Robot2Win.csproj",
+      "libraryId": "LibVLCSharp.WPF",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.\r\n  An error occurred while sending the request.\r\n  The remote name could not be resolved: 'api.nuget.org'",
+      "projectPath": "C:\\Users\\metal\\OneDrive\\Documents\\GitHub\\Tyreone\\Robot2Win.csproj",
+      "filePath": "C:\\Users\\metal\\OneDrive\\Documents\\GitHub\\Tyreone\\Robot2Win.csproj",
+      "libraryId": "SocketIOClient",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.\r\n  An error occurred while sending the request.\r\n  The remote name could not be resolved: 'api.nuget.org'",
+      "projectPath": "C:\\Users\\metal\\OneDrive\\Documents\\GitHub\\Tyreone\\Robot2Win.csproj",
+      "filePath": "C:\\Users\\metal\\OneDrive\\Documents\\GitHub\\Tyreone\\Robot2Win.csproj",
+      "libraryId": "LibVLCSharp",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "projectPath": "C:\\Users\\metal\\OneDrive\\Documents\\GitHub\\Tyreone\\Robot2Win.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\metal\\OneDrive\\Documents\\GitHub\\Tyreone\\Robot2Win.csproj",
+      "targetGraphs": []
+    }
+  ]
+}
