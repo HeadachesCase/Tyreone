@@ -1,0 +1,46 @@
+<Window x:Class="Robot2Win.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vlc="clr-namespace:LibVLCSharp.WPF;assembly=LibVLCSharp.WPF"
+        Title="Robot2 Control" Height="720" Width="1200"
+        WindowStartupLocation="CenterScreen">
+  <Grid Margin="12">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="*"/>
+      <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+
+    <Grid ColumnSpacing="12" RowSpacing="12">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="*"/>
+      </Grid.ColumnDefinitions>
+
+      <Border Grid.Column="0" CornerRadius="10" BorderBrush="#333" BorderThickness="1" Padding="4">
+        <Grid>
+          <TextBlock Text="Camera A (rtsp://host:8554/test)" Margin="8" Foreground="#aaa"/>
+          <vlc:VideoView Name="VideoViewA" Margin="0,24,0,0"/>
+        </Grid>
+      </Border>
+
+      <Border Grid.Column="1" CornerRadius="10" BorderBrush="#333" BorderThickness="1" Padding="4">
+        <Grid>
+          <TextBlock Text="Camera B (rtsp://host:8555/test)" Margin="8" Foreground="#aaa"/>
+          <vlc:VideoView Name="VideoViewB" Margin="0,24,0,0"/>
+        </Grid>
+      </Border>
+    </Grid>
+
+    <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,12,0,0" HorizontalAlignment="Stretch">
+      <TextBlock Text="WS:" FontWeight="Bold"/>
+      <TextBlock Name="WsStatus" Text="disconnected" Margin="6,0,18,0"/>
+      <TextBlock Text="Gamepad:" FontWeight="Bold"/>
+      <TextBlock Name="PadStatus" Text="not found" Margin="6,0,18,0"/>
+      <TextBlock Text="Battery:" FontWeight="Bold"/>
+      <TextBlock Name="BatteryText" Text="—" Margin="6,0,18,0"/>
+      <Button Content="LED ON" Click="LedOn_Click" Margin="0,0,6,0"/>
+      <Button Content="LED OFF" Click="LedOff_Click" Margin="0,0,6,0"/>
+      <Button Content="Reconnect WS" Click="Reconnect_Click" />
+    </StackPanel>
+  </Grid>
+</Window>
